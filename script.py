@@ -133,7 +133,6 @@ def run(mode):
         while True:
             monitor_downloads(steam_path, 1)
 
-
 if __name__ == '__main__':
     mode = input("Choose mode (once / five / continuous): ").strip().lower()
     if mode not in {"once", "five", "continuous"}:
